@@ -1,0 +1,29 @@
+{
+    "name": "craig0990/openhub",
+    "description": "An open source web interface for Git repositories",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Roberts",
+            "email": "craig0990@googlemail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/craig0990/Granite"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "OpenHub\\": "src/"
+        }
+    },
+    "require": {
+        "craig0990/Granite": "master",
+        "aura/web": "master",
+        "aura/router": "master",
+        "mustache/mustache": "master"
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "d0bc88cd705cb1cf068728ef90d6389e",
+    "packages": [
+        {
+            "name": "aura/installer-default",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/installer-default.git",
+                "reference": "52f8de3670cc1ef45a916f40f732937436d028c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/installer-default/zipball/52f8de3670cc1ef45a916f40f732937436d028c8",
+                "reference": "52f8de3670cc1ef45a916f40f732937436d028c8",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Aura\\Composer\\DefaultInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Aura\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul M. Jones",
+                    "email": "pmjones88@gmail.com",
+                    "homepage": "http://paul-m-jones.com"
+                }
+            ],
+            "description": "Installs Aura packages using the Composer defaults.",
+            "keywords": [
+                "aura",
+                "installer"
+            ],
+            "time": "2012-11-26 21:35:57"
+        },
+        {
+            "name": "aura/router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Router.git",
+                "reference": "624adb4546dadbf60dd303d78a94ff865fdd1e70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/624adb4546dadbf60dd303d78a94ff865fdd1e70",
+                "reference": "624adb4546dadbf60dd303d78a94ff865fdd1e70",
+                "shasum": ""
+            },
+            "require": {
+                "aura/installer-default": ">=1.0.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aura-package",
+            "autoload": {
+                "psr-0": {
+                    "Aura\\Router": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul M. Jones",
+                    "email": "pmjones88@gmail.com",
+                    "homepage": "http://paul-m-jones.com"
+                },
+                {
+                    "name": "Hari KT",
+                    "email": "kthari85@gmail.com",
+                    "homepage": "http://harikt.com"
+                },
+                {
+                    "name": "Aura.Router Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+                },
+                {
+                    "name": "George Papadopoulos",
+                    "email": "g.papadopg@gmail.com"
+                },
+                {
+                    "name": "Jon Elofson",
+                    "email": "jon.elofson@gmail.com"
+                }
+            ],
+            "description": "The Aura Router package implements web routing; given a URI path and a copy of $_SERVER, it will extract controller, action, and parameter values for a specific route.",
+            "homepage": "http://auraphp.com/Aura.Router",
+            "keywords": [
+                "route",
+                "router",
+                "routing"
+            ],
+            "time": "2013-09-10 12:11:39"
+        },
+        {
+            "name": "aura/web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Web.git",
+                "reference": "494f5082989e4a479ea3e7e5304c26ffa520cf3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/494f5082989e4a479ea3e7e5304c26ffa520cf3e",
+                "reference": "494f5082989e4a479ea3e7e5304c26ffa520cf3e",
+                "shasum": ""
+            },
+            "require": {
+                "aura/installer-default": ">=1.0.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aura-package",
+            "autoload": {
+                "psr-0": {
+                    "Aura\\Web": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul M. Jones",
+                    "email": "pmjones88@gmail.com",
+                    "homepage": "http://paul-m-jones.com"
+                },
+                {
+                    "name": "Hari KT",
+                    "email": "kthari85@gmail.com",
+                    "homepage": "http://harikt.com"
+                },
+                {
+                    "name": "Aura.Web Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Web/contributors"
+                },
+                {
+                    "name": "Pascal Borrelli",
+                    "email": "pascal@borreli.com"
+                }
+            ],
+            "description": "The Aura Web package provides tools to build web page controllers, including an AbstractPage for action methods, a Context class for disovering the request environment, and a Response transfer object that describes the eventual HTTP response.",
+            "homepage": "http://auraphp.com/Aura.Web",
+            "keywords": [
+                "controller",
+                "page controller",
+                "web controller"
+            ],
+            "time": "2013-09-10 13:14:50"
+        },
+        {
+            "name": "craig0990/granite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craig0990/Granite.git",
+                "reference": "d9cc344dc2f6890af85c401a8a32fef919303f5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craig0990/Granite/zipball/d9cc344dc2f6890af85c401a8a32fef919303f5b",
+                "reference": "d9cc344dc2f6890af85c401a8a32fef919303f5b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Granite\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Craig Roberts",
+                    "email": "craig0990@googlemail.com"
+                }
+            ],
+            "description": "A PHP Git library",
+            "support": {
+                "source": "https://github.com/craig0990/Granite/tree/master",
+                "issues": "https://github.com/craig0990/Granite/issues"
+            },
+            "time": "2013-12-04 11:37:52"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "14bc3b4f6a4770b535fc433bfd0435471ed386c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/14bc3b4f6a4770b535fc433bfd0435471ed386c6",
+                "reference": "14bc3b4f6a4770b535fc433bfd0435471ed386c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2013-08-13 04:49:23"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

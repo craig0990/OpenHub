@@ -1,0 +1,10 @@
+<h2>{{repo}} <small>{{path}}</small></h2>
+
+<ul>
+    {{#up}}
+        <li><a href="/repo/{{repo}}{{up}}">../</a></li>
+    {{/up}}
+    {{#nodes}}
+        <li><a href="/repo/{{repo}}/{{path}}/{{name}}">{{name}}</a></li>
+    {{/nodes}}
+</ul>
